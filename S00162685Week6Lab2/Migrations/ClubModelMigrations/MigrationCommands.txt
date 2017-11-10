@@ -1,0 +1,4 @@
+﻿enable-migrations -ContextTypeName S00162685Week6Lab2.Models.ClubModels.ClubsDbContext -MigrationsDirectory Migrations\ClubModelMigrations
+
+add-migration -ConfigurationTypeName S00162685Week6Lab2.Migrations.ClubModelMigrations.Configuration {name}
+update-database -ConfigurationTypeName S00162685Week6Lab2.Migrations.ClubModelMigrations.Configuration
